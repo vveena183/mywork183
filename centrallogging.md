@@ -157,3 +157,6 @@ GuardDuty enabled through Organization and GuardDuty findings are aggregated in 
 SIEM Integration
 Splunk Integration
 Currently only the Config, CloudTrail, GuardDuty findings and S3 access logs are ingested to Splunk. S3 event notification is setup for the S3 buckets storing these logs so that when new objects are created, notifications are sent on Amazon SQS queue. Splunk uses SQS-based S3 input method to ingest the log data.
+
+![image](https://user-images.githubusercontent.com/73198116/113442372-ca20d100-93a4-11eb-8684-615566b4110b.png)
+
