@@ -58,6 +58,9 @@ Below diagram highlights the architecture of the centralized logging for the add
 
 PL Centralized Logging Architecture - Overall Architecture v0.2.png
 
+![image](https://user-images.githubusercontent.com/73198116/113441454-339fe000-93a3-11eb-9c35-c34885b2a986.png)
+
+
 Details on the setup in Log Archive account
 
 2nd S3 bucket is created in the Control Tower log archive account that would allow relevant AWS service principals to deliver logs to this bucket. For VPC flow logs, NLB/ALB access logs, the service principal is delivery.logs.amazonaws.com'; for GuardDuty service principal is 'guardduty.amazonaws.com';
